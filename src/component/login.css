@@ -1,0 +1,52 @@
+.container{
+
+    background-color: #e9b1d0;
+      /* margin: 40px; */
+    padding: 20px; 
+    height: 617PX;
+    overflow: hidden;  
+}
+
+
+#main-container {
+   margin-left:200px;
+   margin-top: +20PX;
+   padding: 120px;  
+   width: 35%;
+   
+  background-color:   rgb(216, 209, 209);
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+
+}
+h1{
+   text-transform: uppercase;
+}
+#password{
+    padding: 10px;
+    margin: 5px;
+    
+}
+#username{
+    padding: 10px;
+    margin: 5px;
+}
+#submit-btn {
+    padding: 10px;
+    margin: 5px;
+}
+#submit-btn:hover {
+    background-color: #8a1a48;
+    color:#cb2d6f;
+}
+    
+ 
+.login{
+    align-self: center;
+
+}
+.para{
+    align-self: center;
+
+}

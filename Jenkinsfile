@@ -1,6 +1,9 @@
 pipeline { 
 
   agent any
+ tools {
+     gradle 'Gradle-6.2'
+ }
   stages { 
        stage("run frotend") {
             
@@ -17,9 +20,8 @@ pipeline {
             
            steps {
            echo 'executing graddle...'
-             withGradle() {
                bash './gradlew -v'
-             }
+             
            }   
        }
   }
